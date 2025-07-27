@@ -1,4 +1,4 @@
-import {
+/*import {
   BarChart,
   Bar,
   XAxis,
@@ -6,9 +6,10 @@ import {
   CartesianGrid,
   Tooltip,
   ResponsiveContainer,
-} from "recharts";
+} from "recharts";*/
 
 const BarChartComponent = ({ data }) => {
+  return <h2>Bar chart component</h2>;
   return (
     <ResponsiveContainer width="100%" height={300}>
       <BarChart data={data} margin={{ top: 50 }}>

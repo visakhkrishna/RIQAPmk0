@@ -1,4 +1,4 @@
-import {
+/*import {
   ResponsiveContainer,
   AreaChart,
   Area,
@@ -6,10 +6,11 @@ import {
   YAxis,
   CartesianGrid,
   Tooltip,
-} from "recharts";
+} from "recharts";*/
 
 const AreaChartComponent = ({ data }) => {
-  return (
+  return <h2>Area chart</h2>;
+  /*return (
     <ResponsiveContainer width="100%" height={300}>
       <AreaChart data={data} margin={{ top: 100 }}>
         <CartesianGrid strokeDasharray="3 3" />
@@ -19,7 +20,7 @@ const AreaChartComponent = ({ data }) => {
         <Area type="monotone" dataKey="count" stroke="#2cb1bc" fill="#bef8fd" />
       </AreaChart>
     </ResponsiveContainer>
-  );
+  );*/
 };
 
 export default AreaChartComponent;
